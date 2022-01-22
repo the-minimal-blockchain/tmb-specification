@@ -30,9 +30,18 @@ The consensus will priority implement the [*A consensus mechanism based on "egoc
 
 The JSON format block data file named [blockNumber].json will be stored in a local folder.
 
-## Smart Contract
+Block data defined as:
 
-TODO
+```json
+{
+    prev: string,
+    height: number
+    payload: {
+        key: json,
+        key: json
+    }
+}
+```
 
 ## Documents
 
