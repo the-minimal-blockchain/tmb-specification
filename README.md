@@ -32,7 +32,7 @@ The JSON format block data file named [blockNumber].json will be stored in a loc
 
 Block data defined as:
 
-```json
+```text
 {
     prev: string,
     height: number
