@@ -88,7 +88,7 @@ curl -X POST \
 curl http://127.0.0.1:25010/get?height=1
 ```
 
-## Q&A
+## FAQ
 
 ### Why this project?
 
