@@ -54,6 +54,7 @@ Supported environment variable list:
 | Variable name | Description |
 | -- | -- |
 | LocalPort | Node local port |
+| LocalIP | Node local ip |
 | DataPath | Block data path |
 | HTTPPort | Node http port |
 
@@ -85,7 +86,7 @@ curl -X POST \
 #### /get
 
 ```
-curl http://127.0.0.1:25010/get?height=1
+curl http://127.0.0.1:25010/get/1
 ```
 
 ## FAQ
